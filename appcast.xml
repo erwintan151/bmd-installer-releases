@@ -9,8 +9,8 @@
 
         <item>
             <title>Version 1.1.0</title>
-            <pubDate>Wed, 19 Mar 2026 12:00:00 +0000</pubDate>
-            <sparkle:version>11000</sparkle:version>              <!-- CFBundleVersion (integer) -->
+            <pubDate>Tue, 18 Mar 2026 00:00:00 +0000</pubDate>
+            <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <description><![CDATA[
                 <h3>What's New</h3>
@@ -19,12 +19,11 @@
                     <li>Over-the-air updates via Sparkle</li>
                 </ul>
             ]]></description>
-            <!-- Sign with: sign_update <path-to.dmg> <private-key-file> -->
             <enclosure
                 url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.0/BMD-Installer-1.1.0.dmg"
-                length="0"
+                length="22347737"
                 type="application/octet-stream"
-                sparkle:edSignature="PASTE_SIGNATURE_HERE"
+                sparkle:edSignature="hgCm27I7+dTY5Aow9bm4DsJc1Dm/0M/S4hvkFXyEDRc1+luaugebz0PTGeOk48fsKC9vBii7P7QKIiKDrrU0Cw=="
             />
         </item>
 
