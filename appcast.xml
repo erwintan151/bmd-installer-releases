@@ -24,9 +24,9 @@
             ]]></description>
             <enclosure
                 url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.1/BMD-Installer-1.1.1.dmg"
-                length="22390281"
+                length="22390583"
                 type="application/octet-stream"
-                sparkle:edSignature="xew6FFApF4zM5MljYdBpKqkZI/nQW8p2vDL5i0U4fvnFsiB6bYjFNO7iBPrw4siMdJeNd+zyEuSbOdDe9+5rAg=="
+                sparkle:edSignature="pzCurVunmYC1jGzHPMNDQYH7PM9VyKbVTBGiv798wkrabiozW90qLD0nO6XAauhk729Y7TDBtBBEkuxGrsjlBg=="
             />
         </item>
 
