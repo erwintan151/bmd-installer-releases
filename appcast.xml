@@ -8,6 +8,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.3</title>
+            <pubDate>Wed, 25 Mar 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h3>What's New in 1.1.3</h3>
+                <ul>
+                    <li>Search bar in Home view — filter products by name instantly</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.3/BMD-Installer-1.1.3.dmg"
+                length="22451111"
+                type="application/octet-stream"
+                sparkle:edSignature="fdokPtJeZ+tFjeY50iba4ZXxMUfe+30o4m4J/gF2GX1O4Q9Zl9iWneXIYBu1poz+J9xhCZgxs2qquU4wGEQ2CQ=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.1.2</title>
             <pubDate>Thu, 20 Mar 2026 12:00:00 +0000</pubDate>
             <sparkle:version>4</sparkle:version>
