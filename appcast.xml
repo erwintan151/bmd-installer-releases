@@ -8,6 +8,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.4</title>
+            <pubDate>Sun, 20 Apr 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h3>What's New in 1.1.4</h3>
+                <ul>
+                    <li>Settings page — Open on Login, Allow Notifications, and Light/Dark/System appearance toggle</li>
+                    <li>Beta version detection — beta releases shown separately with purple badge</li>
+                    <li>Fairlight Live added with version detection and manual download link</li>
+                    <li>Fixed Blackmagic RAW and other products showing as "unknown" when API entries lack the beta field</li>
+                    <li>Removed Knowledge Base tab</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.4/BMD-Installer.dmg"
+                length="23209654"
+                type="application/octet-stream"
+                sparkle:edSignature="tvoH4E6Q7YbuGt2MTswAd/SBSiwQp5EHVlsgNtqVvG01iWcJsUO/ZVXwZdK5oyvxNZx7/PrvWzezJ9Dbca89AQ=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.1.3</title>
             <pubDate>Wed, 25 Mar 2026 12:00:00 +0000</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -44,7 +67,7 @@
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.2/BMD.Installer.dmg"
+                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.2/BMD-Installer-1.1.2.dmg"
                 length="22439251"
                 type="application/octet-stream"
                 sparkle:edSignature="C1Rfmx8uEvx9I42Q00pVMQSQAt4dvc2WhhO25A6Hclowg2Xa7A/e/AmTWAmquSf0V1oMPeQzAxh9W0GKFsv1Cw=="
