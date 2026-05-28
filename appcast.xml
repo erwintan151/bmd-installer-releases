@@ -8,6 +8,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.5</title>
+            <pubDate>Wed, 28 May 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h3>What's New in 1.1.5</h3>
+                <ul>
+                    <li>Release notes now include a "Read more on Blackmagic Design" link for each version</li>
+                    <li>Fixed beta releases not showing the Beta badge (e.g. ATEM Switchers 10.3 Beta 2)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.5/BMD-Installer.dmg"
+                length="23212583"
+                type="application/octet-stream"
+                sparkle:edSignature="lX1dsRwVt0z3XM0ETgiKgyghw5DGOl5seRCOFPA1HT8UnBbIrsOe2c+l+4NTFaWmdfU9xqpnZyGMclCvbBnqBQ=="
+            />
+        </item>
+
+        <item>
             <title>Version 1.1.4</title>
             <pubDate>Sun, 20 Apr 2026 12:00:00 +0000</pubDate>
             <sparkle:version>6</sparkle:version>
