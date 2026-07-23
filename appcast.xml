@@ -7,7 +7,7 @@
         <description>Most recent updates to BMD Installer.</description>
         <language>en</language>
 
-        <item>
+       <item>
             <title>Version 1.2</title>
             <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -31,6 +31,26 @@
                 sparkle:edSignature="NvrX1VqTk31HX3Qyqtwyi9kfjbZrszFwAsFHfVj4YJHGb8RSvDHPADasHB5aNC2pElSBeMdpJJu0hCg12g/bDQ=="
             />
         </item>
+        
+        <item>
+            <title>Version 1.1.5</title>
+            <pubDate>Wed, 28 May 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h3>What's New in 1.1.5</h3>
+                <ul>
+                    <li>Release notes now include a "Read more on Blackmagic Design" link for each version</li>
+                    <li>Fixed beta releases not showing the Beta badge (e.g. ATEM Switchers 10.3 Beta 2)</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.5/BMD-Installer.dmg"
+                length="23212583"
+                type="application/octet-stream"
+                sparkle:edSignature="lX1dsRwVt0z3XM0ETgiKgyghw5DGOl5seRCOFPA1HT8UnBbIrsOe2c+l+4NTFaWmdfU9xqpnZyGMclCvbBnqBQ=="
+            />
+        </item>
 
         <item>
             <title>Version 1.1.4</title>
@@ -44,15 +64,14 @@
                     <li>Beta version detection — beta releases shown separately with purple badge</li>
                     <li>Fairlight Live added with version detection and manual download link</li>
                     <li>Fixed Blackmagic RAW and other products showing as "unknown" when API entries lack the beta field</li>
-                    <li>Registration form now collects all required Blackmagic Design fields (phone, address, city, state, zip)</li>
                     <li>Removed Knowledge Base tab</li>
                 </ul>
             ]]></description>
             <enclosure
                 url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.4/BMD-Installer.dmg"
-                length="0"
+                length="23209654"
                 type="application/octet-stream"
-                sparkle:edSignature="PASTE_SIGNATURE_HERE"
+                sparkle:edSignature="tvoH4E6Q7YbuGt2MTswAd/SBSiwQp5EHVlsgNtqVvG01iWcJsUO/ZVXwZdK5oyvxNZx7/PrvWzezJ9Dbca89AQ=="
             />
         </item>
 
@@ -67,19 +86,66 @@
                     <li>Search bar in Home view — filter products by name instantly</li>
                 </ul>
             ]]></description>
-            <!-- Sign with: sign_update <path-to.dmg> <private-key-file> -->
             <enclosure
-                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.3/BMD-Installer-1.1.3.dmg"
-                length="0"
+                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.3/BMD-Installer.dmg"
+                length="22451111"
                 type="application/octet-stream"
-                sparkle:edSignature="PASTE_SIGNATURE_HERE"
+                sparkle:edSignature="fdokPtJeZ+tFjeY50iba4ZXxMUfe+30o4m4J/gF2GX1O4Q9Zl9iWneXIYBu1poz+J9xhCZgxs2qquU4wGEQ2CQ=="
+            />
+        </item>
+
+        <item>
+            <title>Version 1.1.2</title>
+            <pubDate>Thu, 20 Mar 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h3>What's New in 1.1.2</h3>
+                <ul>
+                    <li>Download &amp; Install and Download Only buttons — save the installer to Downloads without running it</li>
+                    <li>Download Only success banner with Reveal in Finder button</li>
+                    <li>Favourites — star up to 5 products; favourites float to the top with animation</li>
+                    <li>Click outside the product detail sheet to close it</li>
+                    <li>Blackmagic Cintel added (replaces Duplicator)</li>
+                    <li>Blackmagic RAW shows info banner explaining it is bundled with Camera Setup</li>
+                    <li>Products sorted A–Z with favourites pinned first</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.2/BMD-Installer-1.1.2.dmg"
+                length="22439251"
+                type="application/octet-stream"
+                sparkle:edSignature="C1Rfmx8uEvx9I42Q00pVMQSQAt4dvc2WhhO25A6Hclowg2Xa7A/e/AmTWAmquSf0V1oMPeQzAxh9W0GKFsv1Cw=="
+            />
+        </item>
+
+        <item>
+            <title>Version 1.1.1</title>
+            <pubDate>Thu, 19 Mar 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h3>What's New in 1.1.1</h3>
+                <ul>
+                    <li>Download progress bar in Home view while downloading</li>
+                    <li>All product cards now share the same height</li>
+                    <li>Auto-refresh after macOS Installer completes</li>
+                    <li>Downloaded DMG moved out of temp folder automatically</li>
+                    <li>App always runs in dark mode</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.1/BMD-Installer-1.1.1.dmg"
+                length="22390583"
+                type="application/octet-stream"
+                sparkle:edSignature="pzCurVunmYC1jGzHPMNDQYH7PM9VyKbVTBGiv798wkrabiozW90qLD0nO6XAauhk729Y7TDBtBBEkuxGrsjlBg=="
             />
         </item>
 
         <item>
             <title>Version 1.1.0</title>
-            <pubDate>Wed, 19 Mar 2026 12:00:00 +0000</pubDate>
-            <sparkle:version>11000</sparkle:version>              <!-- CFBundleVersion (integer) -->
+            <pubDate>Tue, 18 Mar 2026 00:00:00 +0000</pubDate>
+            <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
             <description><![CDATA[
                 <h3>What's New</h3>
@@ -88,12 +154,11 @@
                     <li>Over-the-air updates via Sparkle</li>
                 </ul>
             ]]></description>
-            <!-- Sign with: sign_update <path-to.dmg> <private-key-file> -->
             <enclosure
                 url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.1.0/BMD-Installer-1.1.0.dmg"
-                length="0"
+                length="22347737"
                 type="application/octet-stream"
-                sparkle:edSignature="PASTE_SIGNATURE_HERE"
+                sparkle:edSignature="hgCm27I7+dTY5Aow9bm4DsJc1Dm/0M/S4hvkFXyEDRc1+luaugebz0PTGeOk48fsKC9vBii7P7QKIiKDrrU0Cw=="
             />
         </item>
 
