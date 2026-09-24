@@ -7,6 +7,28 @@
         <description>Most recent updates to BMD Installer.</description>
         <language>en</language>
 
+        <item>
+            <title>Version 1.2.1</title>
+            <pubDate>Thu, 24 Sep 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h3>What's New in 1.2.1</h3>
+                <ul>
+                    <li>Refresh now really refreshes — it fetches the latest versions from Blackmagic Design every time. Previously it reused the data loaded when the app started, so new releases only appeared after quitting and reopening the app</li>
+                    <li>Product icons are now read from the software installed on your Mac, so redesigned icons stay current — Ethernet Switch, Video Assist, Audio Monitor and Camera Setup all show their new artwork</li>
+                    <li>New tips banner above the software grid, cycling through shortcuts that are easy to miss: right-click to uninstall, patch notes, manuals, favourites, hiding software and copying a download link</li>
+                </ul>
+            ]]></description>
+            <!-- Sign with: sign_update <path-to.dmg> <private-key-file> -->
+            <enclosure
+                url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.2.1/BMD-Installer.dmg"
+                length="23268618"
+                type="application/octet-stream"
+                sparkle:edSignature="53YLVZ9lNpN745fzHiabmVfeSAbw+oebjTF+oA81X7PoeXmLK5X6C56xfH3+FnSG37qizSynWsZK9OH80TEPCw=="
+            />
+        </item>
+
        <item>
             <title>Version 1.2</title>
             <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
@@ -23,7 +45,6 @@
                     <li>Cleaned up malformed installed version strings (e.g. Fairlight Live)</li>
                 </ul>
             ]]></description>
-            <!-- Sign with: sign_update <path-to.dmg> <private-key-file> -->
             <enclosure
                 url="https://github.com/erwintan151/bmd-installer-releases/releases/download/v1.2/BMD-Installer.dmg"
                 length="23251176"
@@ -31,7 +52,7 @@
                 sparkle:edSignature="NvrX1VqTk31HX3Qyqtwyi9kfjbZrszFwAsFHfVj4YJHGb8RSvDHPADasHB5aNC2pElSBeMdpJJu0hCg12g/bDQ=="
             />
         </item>
-        
+
         <item>
             <title>Version 1.1.5</title>
             <pubDate>Wed, 28 May 2026 12:00:00 +0000</pubDate>
